@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="favicon.ico" type="text/icon" rel="shortcut icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet"  type="text/css" href="style/login.css">
+    <link rel="stylesheet" type="text/css" href="style/base.css">
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <link rel="stylesheet" type="text/css" href="style/register.css">
+    <link rel="stylesheet" href="style/jquery.slider.css" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.slider.min.js"></script>
+</head>
+<body>
+    <div class="reg wrap">
+    <div class="logBg ">
+        <div class="logBox">
+            <div class="logo"><img src="images/login/logo.png " alt="logo"></div>
+            <div class="passid">
+                <input type="text" class="idinput">
+                <div class="text">手机号<span><span></div>
+            </div>
+
+            <div class="container">
+	            <div class="demo1">
+                    <div id="slider1" class="slider"></div>
+                </div>
+                <div class="result">验证结果：<span id="result1"></span></div>
+
+            </div>
+            <script>
+                $("#slider1").slider({
+                    width:310,
+                    height:40,
+                    sliderBg: "rgba(134, 134, 131 ,0.5)",
+                    color: "#fff",
+                    fontSize: 14,
+                    // bgColor: "#33CC00",
+                    textMsg: "按住滑块，拖拽验证",
+                    successMsg: "验证通过了哦",
+                    time: 5,
+
+                    callback: function(result) {
+                    $("#result1").text(result);
+                    }
+                });
+          
+            </script>        
+
+
+            <div class="passid">
+                <input type="text" class="idinput">
+                <div class="text">账号:<span>手机号/Email/I<span></div>
+            </div>
+
+
+            <div class="password">
+                <input type="password" class="passinput">
+                <div class="text">密码</div>
+                <img class="fr" src="images/login/ipt-psw.png" alt="输入密码">
+            </div>
+            <div class="passpower  ">
+                <div class="power fl clearfix">
+                    <p>强度</p>
+                <span></span>
+                 <span></span> 
+                 <span></span>
+                </div>
+            </div>    
+                <ul class="passitem clearfix">
+                    <li><i class="iconfont"></i><span>1～20个字符</span></li>
+                    <li><i class="iconfont"></i><span>只能包含字母、数字以及标点符号（除空格）</span></li>
+
+                    <li><i class="iconfont"></i><span>字母、数字和标点至少包含2种</span></li>
+                </ul>
+           
+
+
+            <div class="headimg clearfix">
+                <p class="selecthead">选择头像</p>
+                <ul>
+                    <li><img src="images/register/head1.jpg" class="head" alt="头像">
+                        <p class="select" style="display:block;"><img src="images/register/gou.png" alt="选择"></p>
+                    </li>
+                    <li><img src="images/register/head2.jpg" class="head" alt="头像">
+                    <p class="select"><img src="images/register/gou.png" alt="选择"></p>
+                    </li>
+                    <li><img src="images/register/head3.jpg"  class="head" alt="头像">
+                        <p class="select"><img src="images/register/gou.png" alt="选择"></p>
+                    </li>
+                    <li><img src="images/register/head4.jpg" class="head" alt="头像">
+                        <p class="select"><img src="images/register/gou.png" alt="选择"></p>
+                    </li>
+                    <li><img src="images/register/head5.jpg" class="head" alt="头像">
+                        <p class="select"><img src="images/register/gou.png" alt="选择"></p>
+                    </li>
+                        
+                    <li><img src="images/register/head6.jpg" class="head" alt="头像">
+                        <p class="select"><img src="images/register/gou.png" alt="选择"></p>
+                    </li>
+                        
+                </ul>
+            </div>
+
+            <div class="logsub">
+                <input type="button" value=" 完 成 注 册" class="logbut">
+                <p class="text"> 点击“完成注册”，即表示您同意并愿意遵守商城的<a href="#">用户协议</a></p>
+            </div>
+
+                     
+            <div class="register">已有账号或使用第三方账号&nbsp;&nbsp;<a href="#">登录</a></div>
+        </div>
+
+
+    </div>
+</div>
+        <div class="footer_link wrap">
+        <p>
+        <a href="#">关于齐心</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="#">友情链接 </a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="#">English Site</a>
+        </p>
+        <p>Copyright © 2017 深圳齐心集团股份有限公司<a href="#">(002301.SZ)</a> 版权所有&nbsp;&nbsp;粤ICP备05143967号 增值电信业务经营许可证：<a href="#">粤B1.B2-20150312</a></p>
+        </div>
+    
+</body>
+</html>

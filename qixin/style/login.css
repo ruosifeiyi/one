@@ -1,0 +1,163 @@
+
+.logBg{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background: #fff;
+    margin-top: 30px;
+    padding-bottom: 25px;
+     box-shadow: 0px 2px 12px 0px #d8d9da; 
+
+}
+.logBg .logBox{
+    width: 310px;
+    background: white;
+    margin: 0 auto;
+}
+.logBg .logBox .logo{
+    padding: 40px 0 30px 0;
+} 
+.logBg .logBox .logo img{
+    display: block;
+    margin-left: 98px; 
+    /* text-align: center; */
+}
+.logBg .logBox .passid{
+    height: 40px;
+ 
+    line-height: 40px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.logBg .logBox .passid .idinput{
+    width: 100%;
+    padding: 10px;
+    padding-left: 18px; 
+    border: 1px solid #d2d2d2;
+    font-size: 14px;
+   
+    
+}
+.logBg .logBox .passid:hover .text{
+     display: none; 
+}
+
+
+.password {
+    width: 310px;
+    height: 40px;
+    /* background: yellow; */
+    position: relative;
+}
+.password .passinput{
+  
+     width: 100%;
+    /* height: 40px;  */
+    line-height: 18px;
+    padding: 10px;
+    padding-left: 18px;
+    border: 1px solid #d2d2d2;
+    font-size: 14px;
+    
+}
+.passid .text{
+    position: absolute;
+    font-size: 14px;
+    padding: 0 10px;
+    top:0px;
+    left: 10px;
+    display: block;
+    color: #b5b5b5;
+}
+.password:hover .text{
+    display: none;
+} 
+.password .text{
+    position: absolute;
+    font-size: 14px;
+    padding: 0 10px;
+    top:10px;
+    left: 10px;
+    display: block;
+    color: #b5b5b5;
+}
+.password .fr{
+    top:10px;
+    left: 270px;
+    position: absolute;
+}
+
+.loglink{
+    padding-top: 20px;
+}
+.loglink .fl{
+    width: 67px;
+    height: 20px;
+}
+.loglink .fl .checkbox{
+    margin-top: 2px;
+    margin-right: 5px;
+    float: left;
+}
+.logsub .logbut{
+     font-family: 微软雅黑; 
+    margin-top: 20px;
+    width: 100%;
+    height: 36px;
+    background: #e73441;
+    border:   none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+ .otherlog{
+    width: 100%;
+    height: 1px;
+    margin-top: 45px;
+    background: #ececec;
+    text-align: center;
+}
+.otherlog span{
+    font-size: 14px;
+    display: inline-block;
+    height: 20px;
+    padding: 0 12px;
+    background: #fff;
+    vertical-align: top;
+    margin-top: -10px;
+}
+.link{
+    margin-top: 55px;
+    
+}
+.link li{
+    float: left;
+    margin: 0 28px;
+    text-align: center;
+}
+.register{   
+       text-align: center;
+    color: #b5b5b5;
+     padding-top: 50px; 
+    
+}
+ .logBg .register a{
+
+    color: #e73441;
+}
+
+
+ .footer_link{
+    padding: 30px 0;
+}
+ .footer_link p{
+    text-align: center;
+	color: #757575;
+	line-height: 25px;
+	
+}
+.footer_link p a{
+	color: #757575;
+}

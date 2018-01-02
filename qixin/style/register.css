@@ -1,0 +1,97 @@
+.logBg{
+     width: 800px;
+    height: 800px;
+     margin: 0 auto;
+    background: #fff;
+    margin-top: 30px;
+    
+    /* box-shadow: 0px 2px 12px 0px #d8d9da; */
+
+}
+
+.container{
+    margin-bottom: 20px;
+}
+.container .result{
+   
+    color: #555;
+    margin-top: 5px;
+}
+.passpower{
+    height: 25px;
+    line-height: 25px;
+    background: bisque;
+    
+    margin-top: 5px;
+}
+.passpower p{
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.passpower span{
+    background: #e2e2e2;
+    width: 20px;
+    height: 7px;
+    line-height: 7px;
+    display: inline-block;
+    float: left;
+    margin:0 5px;
+    margin-top: 9px;
+}
+ .passitem{
+    display: block;
+    /* background: red; */
+    color: #555;
+   
+}
+.passitem li {
+    line-height: 20px;
+   }
+.passitem li i{
+
+}
+.headimg p.selecthead{
+    margin-top: 30px;
+    font-size: 14px;
+     /* color: #757575 */
+}
+.headimg ul{
+    margin-top: 20px;
+}
+.headimg ul li{
+    position: relative;
+    float: left;
+    margin-right: 8px;
+}
+.headimg ul li:nth-child(6){
+    margin-right: 0px;
+}
+.headimg ul li img.head{
+    width: 45px;
+    height: 45px;
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+ }
+.headimg ul li p.select{
+    position: absolute;
+    top: 0;
+    left: 35px;
+    display: none;
+}
+.headimg ul li:hover p.select{
+    display: block;
+}
+.logsub p.text{
+    color:#b5b5b5
+}
+.logsub p a{
+    margin-left: 5px;
+    color: #51b9e8;
+}
+.register{
+    margin-top: -20px;
+}
+
+

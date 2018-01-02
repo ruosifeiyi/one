@@ -1,0 +1,214 @@
+body{
+    background: white;
+}
+#topbar{
+    /* background: red; */
+}
+#topbar .topbar{
+    /* background: green; */
+}
+#topbar .topbar .quick_menu{
+    
+    width: 450px;
+    margin-left: 100px;
+}
+.shopcart{
+    width: 1000px;
+    height: auto;
+    /* background: yellow;  */
+    margin: 0 auto;
+}
+.shopcart .headers{
+    padding-top: 15px;
+}
+.shopcart .headers logo{
+    
+}
+
+.shopcart .headers .step ul li{
+    float: left;
+    width: 160px;
+    line-height: 23px;
+    text-align: center;
+    color: #757575;
+    padding-top: 8px;
+}
+.shopcart .headers .step ul li.active{
+    color: #7abd54;
+}
+.shopcart .list_head{
+    height: 26px;
+    line-height: 26px;
+    background: url(../images/shopcart/list_titile_bk.gif);
+}
+.shopcart .list_head .checkbox{
+    margin-left: 35px;
+}
+.shopcart .list_head .list_con ul li{
+    width: 88px;
+    padding: 0 10px;
+    float: left;
+    color: #757575;
+    text-align: center;
+}
+.shopcart .list_head .list_con ul li.guige{
+    width: 100px;
+    margin:0 80px 0 40px;
+
+}
+.shopcart .list_til{
+    font-weight: bold;
+    color: #e4393c;
+    font-size: 14px;
+    margin: 15px 35px;
+}
+/*商品列表  */
+.shopcart .list_body{
+    border-top: 2px solid #aaa;
+}
+.shopcart .list_body .list_item{
+    border: 1px solid #efefef;
+    border-top: none;
+    padding: 20px 0;
+    position: relative;
+    height: 110px;
+}
+.shopcart .list_body ul li{
+    float: left;
+    line-height: 20px;
+    
+}
+.shopcart .list_body ul li.checkbox{
+    margin-left: 35px;
+    margin-top: 23px;
+     position: absolute; 
+}
+.shopcart .list_body ul li.photo{
+    width: 220px;
+    
+    top: 23px;
+    left: 50px;
+    position: absolute;
+    
+}
+.shopcart .list_body ul li.photo a{
+    display: block;
+    width: 157px;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+}
+.shopcart .list_body ul li.photo img{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.shopcart .list_body ul li.photo p{
+    color: #757575;
+}
+.shopcart .list_body ul li.xinghao{
+    position: absolute;
+    left: 290px;
+}
+.shopcart .list_body ul li.color{
+    position: absolute;
+    left: 410px;
+}
+.shopcart .list_body ul li.price{
+    text-decoration: none;
+    color: #c00;
+    font-weight: bold;
+    left: 480px;
+    position: absolute;
+}
+.shopcart .list_body ul li.shuliang{
+   position: absolute;
+    left: 650px;
+}
+.shopcart .list_body ul li.shuliang img{
+    float: left;
+    margin: 0 5px;
+    margin-top: 3px;
+    
+}
+.shopcart .list_body ul li.shuliang input{
+    width: 30px;
+    text-align: center;
+    float: left;
+}
+.shopcart .list_body ul li.xiaoji{
+    position: absolute;
+    right: 225px;
+    
+    color: #c00;
+}
+.shopcart .list_body ul li.allmon{
+    left: 830px;
+    position: absolute;
+    color: #c00;
+}
+.shopcart .list_body ul li.del{
+    text-decoration: underline;
+    color: #004b91;
+    right: 35px;
+    position: absolute;
+}
+
+/*总计  */
+.shopcart .cart_total{
+    height: 50px;
+    line-height: 50px;
+     background: #f7f7f7; 
+    padding-right: 10px;
+}
+.shopcart .cart_total .control{
+
+}
+.shopcart .cart_total .control .checkbox{
+    margin-left: 35px;
+    margin-top: 18px;
+}
+.shopcart .cart_total .control a{
+    margin-right: 30px;
+}
+.shopcart .cart_total .total span{
+    color: #e4393c;
+    font-size: 20px;
+    font-weight: 400;
+}
+.shopcart .cart_total .total .span1{
+    font-size: 18px;
+     color: #333;
+}
+/*结算  */
+.shopcart  .jiesuan{
+    height:36px;
+    /* background: green; */
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.shopcart  .jiesuan .fl{
+    background: #f3f5f6;
+    width: 90px;
+    line-height: 36px;
+    text-align: center;
+}
+.shopcart  .jiesuan .fl a{
+    text-decoration: none;
+    color: #333;
+}
+.shopcart  .jiesuan .fl:hover{
+    background: white;
+}
+.shopcart  .jiesuan .fr {
+    width: 135px;
+    height: 36px;
+    background: url(../images/shopcart/btn-checkout201305.jpg) no-repeat;
+
+}
+.shopcart  .jiesuan .fr:hover{
+    background: url(../images/shopcart/1.png) no-repeat;
+
+}
